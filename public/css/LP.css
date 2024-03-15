@@ -115,3 +115,11 @@
     margin-left: 100px;
     justify-content: space-evenly;
 }
+
+#img-card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 222px;
+    width: 100%;
+}
