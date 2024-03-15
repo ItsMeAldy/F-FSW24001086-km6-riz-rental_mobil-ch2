@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const url = require('url');
 const PUBLIC_DIRECTORY = path.join(__dirname, '../public');
-const PORT = 2000;
+const PORT = 8000;
 
 const server = (req, res) => {
 	if (req.url === '/') {
