@@ -13,6 +13,7 @@
 
 .hero-section {
     background-color: #e1e8ee;
+    z-index:1 !important ;
 }
 
 .why-us {
@@ -114,6 +115,11 @@
 #footer {
     margin-left: 100px;
     justify-content: space-evenly;
+}
+
+#filter {
+    z-index: 99 !important ;
+    margin-top : -50px !important; 
 }
 
 #img-card {
